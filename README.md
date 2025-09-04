@@ -4,9 +4,9 @@
 FinBoard is a modern financial dashboard application built with Next.js, React, and TypeScript. It allows users to create customizable widgets for tracking financial data through API integrations.
 
 ## Recent Changes
-- **September 3, 2025**: Successfully imported from GitHub and configured for Replit environment
+- **September 3, 2025**: Successfully imported from GitHub and configured environment
   - Installed all dependencies (Next.js 13.5.1, React 18, TypeScript, Tailwind CSS, Radix UI components)
-  - Updated Next.js configuration for Replit proxy compatibility
+  - Updated Next.js configuration for proxy compatibility
   - Set up development workflow on port 5000 with proper host binding (0.0.0.0)
   - Configured deployment settings for autoscale production deployment
   - Added cache control headers for proper development behavior
@@ -52,7 +52,7 @@ FinBoard is a modern financial dashboard application built with Next.js, React, 
 - **Development Server**: `npm run dev -- --hostname 0.0.0.0 --port 5000`
 - **Build**: `npm run build`
 - **Production**: `npm start`
-- **Port**: 5000 (configured for Replit environment)
+- **Port**: 5000 (configured for github environment)
 
 ## Deployment Configuration
 - **Target**: Autoscale (stateless web application)
